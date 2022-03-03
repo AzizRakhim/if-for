@@ -262,12 +262,11 @@ let result = 1
 // For36
 
 /*
-let n = 3;
+let n = 4;
 let k = 2;
 let count = 0;  
 
 for(let i = 1; i <= n; i++){
-  console.log(i**k);
   count += i**k;
 }
 
@@ -277,7 +276,7 @@ console.log(count);
 // For37
 
 /*
-let n = 3;  
+let n = 4;  
 let count = 0;
 
 for(let i = 1; i <= n; i++){
@@ -290,8 +289,8 @@ console.log(count);
 // For39
 
 /*
-let a = 2;
-let b = 5;
+let a = 3;
+let b = 8;
 
 for(let i = a; i <= b; i++){
   for(let j = 1; j <= i; j++){
@@ -303,16 +302,13 @@ for(let i = a; i <= b; i++){
 // For40
 
 /*
-let a = 3;
+let a = 2;
 let b = 6;
-let c = 1;
 
 for(let i = a; i <= b; i++){
-  for(let j = 1; j <= c; j++){
-    console.log(a);
+  for(let j = a; j <= i; j++){
+    console.log(i);
   }
-  c++;
-  a++;
 }
 */
 
