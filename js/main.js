@@ -318,6 +318,7 @@ for(let i = a; i <= b; i++){
 
 // FizzBuzz
 
+/*
 let a = 15;
 
 if(a % 3 == 0 && a % 5 == 0){
@@ -327,3 +328,4 @@ if(a % 3 == 0 && a % 5 == 0){
 } else {
   console.log("Buzz");
 }
+*/
